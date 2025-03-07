@@ -44,7 +44,7 @@ void main() async {
 
     stdout.write("Masukkan angka kedua: ");
     String? input2 = stdin.readLineSync();
-    if (input2 == null || input2.isEmpty) {
+    if (input2 == null || input2.isEmpty) {  
       print("Input tidak boleh kosong.");
       return;
     }
